@@ -1,0 +1,75 @@
+.home-genre-section {
+    padding: 20px;
+    min-height: 400px; /* Ensure a minimum height for the section */
+}
+
+.genre-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.category-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-dropdown {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-grid.empty {
+    justify-content: center;
+}
+
+.no-items-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.view-more-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (if the container has a fixed height) */
+    margin-top: 20px;        /* Optional: Add margin to space it from other elements */
+}
+
+.view-more-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-more-button:hover {
+    background-color: #0056b3;
+}

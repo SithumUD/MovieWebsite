@@ -1,0 +1,54 @@
+/* HomeMiddleBanner.css */
+
+.middle-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); /* Fallback background in case image doesn't load */
+    border-radius: 15px; /* Adjust the radius as needed */
+    overflow: hidden; /* Ensures child elements stay within rounded corners */
+  }
+  
+  .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .movie-details {
+    max-width: 70%;
+  }
+  
+  .movie-details h1 {
+    font-size: 1.5rem; /* Adjusted for smaller banner */
+    margin-bottom: 5px;
+  }
+  
+  .movie-details p {
+    font-size: 1rem; /* Smaller font for banner */
+    margin: 0;
+  }
+  
+  .banner-button button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Rounded corners for button */
+  }
+  
+  .banner-button button:hover {
+    background-color: #e6b800;
+  }
+  

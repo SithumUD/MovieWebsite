@@ -1,0 +1,129 @@
+/* HomeHeader.css */
+.home-header {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://via.placeholder.com/1200x400?text=Header+Background') no-repeat center center/cover;
+}
+
+.slide-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.slide-info {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    max-width: 600px;
+}
+
+.slide-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.slide-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons .view-btn,
+.buttons .favorite-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.view-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.favorite-btn {
+    background-color: #ff4757;
+    color: #fff;
+}
+
+.slide-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    opacity: 0; /* Hide by default */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.slide-container:hover .slide-controls {
+    opacity: 1; /* Show on hover */
+}
+
+.prev,
+.next {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.prev {
+    margin-left: 10px;
+}
+
+.next {
+    margin-right: 10px;
+}
+
+.slide-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.indicator.active {
+    background: #fff;
+}
