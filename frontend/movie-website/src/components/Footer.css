@@ -1,63 +1,78 @@
+/* Footer.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.content {
+  flex: 1; /* Takes up remaining space */
+}
+
 .footer {
-    background-color: #f1f1f1; /* Light background color */
-    padding: 20px 40px;
-    border-top: 1px solid #ddd; /* Optional border at the top */
-  }
-  
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px; /* Adjust based on your design */
-    margin: 0 auto;
-    padding: 0 20px; /* Add padding on the sides */
-  }
-  
-  .footer-logo img {
-    max-height: 80px; /* Adjust based on your logo size */
-  }
-  
-  .footer-middle {
-    text-align: center;
-  }
-  
-  .footer-website-name {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .footer-menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px 0;
-  }
-  
-  .footer-menu li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  .footer-menu a {
-    text-decoration: none;
-    color: #333; /* Adjust color based on your design */
-  }
-  
-  .footer-copyright {
-    font-size: 14px;
-    color: #666; /* Adjust color based on your design */
-  }
-  
-  .footer-social-media {
-    display: flex;
-    align-items: center;
-  }
-  
-  .footer-social-media a {
-    margin: 0 10px;
-  }
-  
-  .footer-social-media img {
-    max-height: 24px; /* Adjust based on your icon size */
-  }
-  
+  background-color: #f1f1f1; /* Light background color */
+  padding: 20px 40px;
+  border-top: 1px solid #ddd; /* Optional border at the top */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Adjust based on your design */
+  margin: 0 auto;
+  padding: 0 20px; /* Add padding on the sides */
+}
+
+.footer-logo img {
+  max-height: 80px; /* Adjust based on your logo size */
+}
+
+.footer-middle {
+  text-align: center;
+}
+
+.footer-website-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer-menu li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #333; /* Adjust color based on your design */
+}
+
+.footer-copyright {
+  font-size: 14px;
+  color: #666; /* Adjust color based on your design */
+}
+
+.footer-social-media {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social-media a {
+  margin: 0 10px;
+}
+
+.footer-social-media img {
+  max-height: 24px; /* Adjust based on your icon size */
+}
